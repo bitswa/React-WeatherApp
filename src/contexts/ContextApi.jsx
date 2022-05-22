@@ -3,7 +3,7 @@ export const ContextApi = createContext();
 
 export function ContextApiProvider({children}) {
 
-  const [location, setLocation] = useState('Florida');
+  const [location, setLocation] = useState('');
   const [list, setList] = useState({});
 
   const url = `https://api.weatherapi.com/v1/current.json?key=e15301164db64de7884174936222105&q=${location}&aqi=no`;
@@ -15,7 +15,6 @@ export function ContextApiProvider({children}) {
         .then(json => {
           setLocation('')
           setList(json)
-          console.log(json)
         })
         .catch(err => console.log(err));
     }
