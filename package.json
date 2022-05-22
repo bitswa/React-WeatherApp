@@ -1,7 +1,6 @@
 {
   "name": "weatherapp",
   "version": "0.1.0",
-  "homepage": "React---weatherApp/",
   "private": true,
   "dependencies": {
     "@flaticon/flaticon-uicons": "^1.7.0",
