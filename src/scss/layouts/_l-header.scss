@@ -1,0 +1,33 @@
+$component-name: 'l-header';
+
+.#{$component-name} {
+
+  nav {
+    display: flex;
+    gap: 8px;
+  }
+
+  input {
+    width: 100%;
+    border-radius: 18px;
+    border: none;
+    padding-left: 12px;
+    font-size: 105%;
+
+    background-color: #7c7c7c2b;
+    outline: none;
+    color: white;
+  }
+
+  button {
+    padding: 8px;
+    background-color: #7c7c7c2b;
+
+    border: none;
+    border-radius: 50%;
+
+    i {
+      color: white;
+    }
+  }
+}

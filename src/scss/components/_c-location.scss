@@ -1,0 +1,8 @@
+$component-name: 'c-location';
+
+.#{$component-name} {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-weight: 700;
+}

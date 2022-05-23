@@ -1,0 +1,12 @@
+$component-name: 'c-card';
+
+.#{$component-name} {
+  width: clamp(300px, 100vw, 420px);
+  padding: 2em;
+  border-radius: 30px;
+
+  color: white;
+  background-color: #000000d0;
+
+  margin: 1rem;
+}
