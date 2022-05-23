@@ -26,6 +26,10 @@ $component-name: 'l-header';
     border: none;
     border-radius: 50%;
 
+    &:hover {
+      background-color: #7c7c7c99;
+    }
+
     i {
       color: white;
     }
